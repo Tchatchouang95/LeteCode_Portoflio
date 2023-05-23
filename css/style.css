@@ -1,0 +1,100 @@
+body{
+    width: 60%;
+    margin: auto;
+    border: 1px solid black;
+}
+#size{
+    font-size: xx-large;
+}
+img{
+    width: 150px;
+}
+
+.flex-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex{
+    display: flex;
+}
+
+.part-1{
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.part-2{
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.part-2-border-left{
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+.part-2 .width-30{
+    width:33%;
+}
+.part-2 .margin-right-10{
+    margin-right: 15px;
+    font-size: 20pxvv;
+}
+.part-2 .sub-3 li{
+    margin-bottom: 10px;
+}
+.part-2 .sub-1, .sub-2, .sub-3, .sub-4{
+    margin: 15px;
+    
+}
+.part-2 .flex #vol{
+    margin-left: 15px;
+}
+.part-2 .flex #vol1{
+    margin-left: 20px;
+}
+
+.part-3{
+    padding-left: 35px;
+    padding-right: 35px;
+    border-bottom: 1px solid #ccc;
+}
+.part-3 li{
+    margin-bottom: 10px;
+}
+
+.part-4, .part-5{
+    padding-left: 35px;
+    padding-right: 35px;
+    border-bottom: 1px solid #ccc;
+}
+
+.part-4 .parcours{
+    display: flex;
+    flex-wrap: wrap;
+}
+.part-4 .parcours .col-30{
+    width:30%;
+}
+.part-4 .parcours .col-70{
+    width: 70%;
+}
+.part-4 .parcours .font-small{
+    font-size: small;
+    font-style: italic;
+    margin-top: 1px;
+}
+.part-4 .parcours .marg-b{
+    margin-bottom: 1px;
+}
+
+.part-5 div{
+    display: flex;
+    justify-content: space-between;
+}
+.part-5 p{
+    border-left: 1px solid #ccc;
+    padding-left: 30px;
+}
+
